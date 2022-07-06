@@ -19,3 +19,11 @@ sap-sandbox-rmq-c4hana は、オンプレミス版である（＝クラウド版
 ## sap-sandbox-rmq-c4hana における SAP領域・機能 の選択基準
 sap-sandbox-rmq-c4hana におけるSAP領域・機能は、SAP C4HANA のあらゆる領域・機能のうち、世界中の企業で繰り返し利用される、利用頻度の高いものと判断されるものが、選択されています。
 
+## Port 番号 の 適用方針 
+| type      | Area         | ポート番号    |
+| :-------- | :----------------------------- | :---------------------------------------- |
+| NodePort  | Central Functions              | 30591-30600 |
+|           | Touch Points             |    30601-30610    |
+|           | Operations |          30611-30620                                 |
+|           | Employee |30621-30625|
+|           | Authentication           |             30626-30630                              |
